@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model PredictionResult
+
+<form asp-action="PredictionResult" method="post">
+    <label for="Feature1">Feature 1: </label>
+    <input type="text" name="Feature1" required />
+    <label for="Feature2">Feature 2: </label>
+    <input type="text" name="Feature2" required />
+    <button type="submit">Tahmin Yap</button>
+</form>
